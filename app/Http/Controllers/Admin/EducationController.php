@@ -11,7 +11,7 @@ class EducationController extends Controller
 
     public function index(Education $education)
     {
-        return $education->pluck('name', 'id');
+        return $education->all('name', 'id');
     }
 
     public function create()
