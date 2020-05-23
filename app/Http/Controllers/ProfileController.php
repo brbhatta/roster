@@ -39,9 +39,13 @@ class ProfileController
         }
 
         $user->save();
+    }
 
+    public function saveLanguages(Request $request, Guard $guard)
+    {
+        $user = $guard->user();
+        $user->languages()->sync($request->get('languages'));
 
-
-
+        return [];
     }
 }

@@ -1,0 +1,17 @@
+PUT http://localhost:8000/api/me/languages
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTU5MDI0NTYyMywiZXhwIjoxNTkwMjQ5MjIzLCJuYmYiOjE1OTAyNDU2MjMsImp0aSI6IllRN2pseWJSQm5uMXlPNDAiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.sB1Suk4T9dPGEFpuJvuSj6Wuwdz-QROMNsOGHS3VFIo
+
+{
+    "languages": [1,2]
+}
+
+###
+GET http://localhost:8000/api/languages
+Accept: application/json
+
+###
+GET http://localhost:8000/api/education
+Accept: application/json
+
+###

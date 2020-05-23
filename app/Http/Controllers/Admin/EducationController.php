@@ -11,7 +11,7 @@ class EducationController extends Controller
 
     public function index(Education $education)
     {
-        return view('admin.education.index', [ 'education' => $education->latest()->paginate(25)]);
+        return $education->pluck('name', 'id');
     }
 
     public function create()

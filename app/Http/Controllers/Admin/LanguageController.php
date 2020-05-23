@@ -12,7 +12,7 @@ class LanguageController extends Controller
 
     public function index(Language $language)
     {
-        return view('admin.language.index', [ 'languages' => $language->latest()->get()]);
+        return $language->pluck('name', 'id');
     }
 
     public function create()

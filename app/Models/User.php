@@ -95,5 +95,9 @@ class User extends Authenticatable implements MustVerifyEmail, JWTSubject
         return [];
     }
 
+    public function languages()
+    {
+        return $this->belongsToMany(Language::class, 'user_languages')->withTimestamps();
+    }
 
 }
