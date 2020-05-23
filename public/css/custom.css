@@ -1,0 +1,13 @@
+.user-group {
+    height: 100%;
+    overflow: hidden;
+}
+
+.user-group {
+    list-style: none;
+    float: left;
+}
+
+.user-group p {
+    text-align: center;
+}

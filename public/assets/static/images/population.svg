@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" viewBox="0 0 85 85">
+    <defs>
+        <style>
+            .cls-1{fill:#fef2e0}.cls-2{fill:#fea62b}
+        </style>
+    </defs>
+    <g id="Group_412" data-name="Group 412" transform="translate(-1525 -329)">
+        <g id="Group_88" data-name="Group 88" transform="translate(1524.887 328.834)">
+            <circle id="Ellipse_1" cx="42.5" cy="42.5" r="42.5" class="cls-1" data-name="Ellipse 1" transform="translate(.113 .166)"/>
+        </g>
+        <g id="people" transform="translate(1546 352.83)">
+            <path id="_Icon_Сolor" d="M27.315 37.822a2.1 2.1 0 0 1-2.1-2.1 10.506 10.506 0 1 0-21.012 0 2.1 2.1 0 1 1-4.2 0A14.7 14.7 0 0 1 25.089 25.31a10.505 10.505 0 0 1 16.935 8.31 2.1 2.1 0 0 1-4.2 0 6.291 6.291 0 0 0-10.2-4.94 14.716 14.716 0 0 1 1.8 7.041 2.1 2.1 0 0 1-2.109 2.101zm4.2-16.81a6.3 6.3 0 1 1 6.3-6.3 6.311 6.311 0 0 1-6.296 6.3zm0-8.4a2.1 2.1 0 1 0 2.1 2.1 2.1 2.1 0 0 0-2.096-2.104zm-16.81 4.2a8.4 8.4 0 1 1 8.4-8.406 8.415 8.415 0 0 1-8.396 8.404zm0-12.608a4.2 4.2 0 1 0 4.2 4.2A4.207 4.207 0 0 0 14.709 4.2z" class="cls-2" data-name="🎨 Icon Сolor"/>
+        </g>
+    </g>
+</svg>
